@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    color: black;
+    gap: 16px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
+
+
+
+
+.top,.header{
+    background-color: #1F2937;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    gap: 16px;
+    border: 5px solid lime;
+}
+
+.logo-text{
+  font-size: 24px;
+  color: #F9FAF8;  
+}
+
+.top{
+    flex: auto;
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    border: 5px solid purple;
+}
+
+.left,.right{
+    border: 2px solid red;
+    width: 400px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.alt-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.right-img{
+    height: 250px;
+    width: 400px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.middle{
+    flex: auto;
+    text-align: center;
+    border: 5px solid orange;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.block{
+    max-width: 200px;
+
+}
+
+
+
+
+.quote{
+    flex: auto;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    border: 5px solid yellow;
+}
+
+
+
+
+
+
+.bottom{
+    flex: 1 0 auto;
+    display:flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border: 5px solid pink;
+}
+
+.left-bubble,.right-bubble{
+    align-self: center;
+}
+
+
+
+
+
+.footer{
+    border: 5px solid red;
+    background-color: #1F2937;
+    text-align: center;
+}
